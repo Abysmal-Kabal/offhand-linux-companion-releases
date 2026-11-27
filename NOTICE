@@ -3,6 +3,21 @@ Offhand Companion for Linux
 Offhand, the Offhand Companion, its logo and its design are (c) N4UX (Offhand Project), all rights reserved,
 under Offhand's license: https://github.com/N4UX-GIT/Offhand-DualMonitor/blob/main/LICENSE
 
-This Linux version follows N4UX's Windows Companion and the Mac Companion built from it, and is offered to
-N4UX for inclusion in Offhand. It is a private test bed: please don't redistribute it without N4UX's
-permission.
+This Linux version follows N4UX's Windows Companion and the Mac Companion built from it. Linux version by
+Abysmal Kabal.
+
+TESTING
+
+The Linux Companion is in testing. These releases are test builds: things may change or break between them,
+and your reports are what improve it. If something doesn't work, looks wrong or could be better, please tell us:
+
+  Offhand Discord:  https://discord.gg/J2P3SM6pAY
+  GitHub Issues:    https://github.com/Abysmal-Kabal/offhand-linux-companion-releases/issues
+  Website:          https://www.offhandwow.com/  (setup guides and help)
+
+A report helps most with:
+  - your distribution and version, and desktop (GNOME, KDE Plasma, ...)
+  - your displays and the layout you use
+  - the Companion's version:  offhand-companion --version
+  - what you did, what happened and what you expected
+  - the output of:  offhand-companion status

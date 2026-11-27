@@ -14,6 +14,19 @@ The package manager installs everything the Companion needs by itself (Python 3,
 xwininfo, xprop and xdotool), and every package includes the frame helper. The Companion doesn't install WoW, Wine
 or Lutris; it works with the game setup you already have.
 
+## Testing: report what you find
+
+The Linux Companion is in testing: these are test builds, and things may change or break between them. If
+something doesn't work, looks wrong or could be better, please tell us:
+
+- **Offhand Discord:** https://discord.gg/J2P3SM6pAY
+- **GitHub Issues:** [report an issue here](https://github.com/Abysmal-Kabal/offhand-linux-companion-releases/issues)
+- **Website:** [www.offhandwow.com](https://www.offhandwow.com/) (setup guides and help)
+
+A report helps most with your distribution and desktop (GNOME, KDE Plasma, ...), your displays and layout, the
+Companion's version (`offhand-companion --version`), what you did, what happened and what you expected, and the
+output of `offhand-companion status`.
+
 ## Ubuntu 22.04+, Debian 12+, Linux Mint, Pop!_OS, Zorin, elementary
 
 ```sh
