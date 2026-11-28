@@ -117,10 +117,24 @@ fetches the dependencies from the distribution's own repositories; both need adm
 
 ## After installing
 
-Run `offhand-companion`, or open **Offhand Companion** from the app menu.
+Open **Offhand Companion** from your app menu. From here on, you won't need the terminal again.
 
-**To update**, run `offhand-companion stop` first (so the old watcher doesn't keep running), then the same commands
-again: they always fetch the newest build.
+### Updates: one click
+
+The Companion keeps itself, and the Offhand addon, up to date:
+
+- It checks when you open it, and every few hours while it's open. When a newer Companion or Offhand addon is out,
+  the **Check for Updates** button turns green and says **Update Available**.
+- **Click it.** The Companion downloads the update, checks it against the release's checksums, installs it, and
+  restarts on the new version.
+  - **Companion updates** ask for your password, because the Companion is installed system-wide (the Bazzite
+    per-user install doesn't ask).
+  - **Offhand addon updates** go into the WoW folder the Companion uses: close WoW first. The previous addon folder
+    is kept as a backup, and your layout keeps working without spanning again.
+- You can click the button any time to check right away.
+
+Versions before 0.8.1 can't update themselves: install once more with the line for your distribution above, and
+the button takes over from there.
 
 On GNOME, a layout that splits one display also needs the **Hide Top Bar** extension (install it with Extension
 Manager).
